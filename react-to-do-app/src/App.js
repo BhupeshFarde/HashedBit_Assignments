@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import AllNotes from './Components/AllNotes';
-import NotesForm from './Components/NotesForm';
-import NavBar from './Components/NavBar'
+import AllNotes from './components/AllNotes.js';
+import NotesForm from './components/NotesForm.js';
+import NavBar from './components/NavBar.js'
 
 import { useState } from 'react';
 
